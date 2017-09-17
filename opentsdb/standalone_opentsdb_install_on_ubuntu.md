@@ -148,6 +148,16 @@ $ mv ~/app/opentsdb-2.2.0 ~/app/opentsdb
 $ cd ~/app/opentsdb
 $ ./build.sh
 ```
+**javacc error 발생시**
+```sh
+cd opentsdb-2.3.0
+
+mkdir build
+
+cp -r third_party ./build
+
+./build.sh
+```sh
 
 3.환경설정파일 'opentsdb.conf'을 수정한다.
   - tsd.network.port = TSD 연결 포트
