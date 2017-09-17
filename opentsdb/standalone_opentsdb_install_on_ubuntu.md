@@ -157,7 +157,7 @@ mkdir build
 cp -r third_party ./build
 
 ./build.sh
-```sh
+```
 
 3.환경설정파일 'opentsdb.conf'을 수정한다.
   - tsd.network.port = TSD 연결 포트
